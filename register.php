@@ -8,7 +8,7 @@
 		$BOT_TOKEN = '724039027:AAEl6pJAAK7h2Mj-OUQnMgia1tvH6uCPvIQ';
 
 		// NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
-		$API_URL = 'https://api.telegram.org/bot/' . $BOT_TOKEN .'/';
+		$API_URL = 'https://api.telegram.org/bot' . $BOT_TOKEN .'/';
 		$method = 'setWebhook';
 		$parameters = array('url' => $WEBHOOK_URL);
 		$url = $API_URL . $method. '?' . http_build_query($parameters);
