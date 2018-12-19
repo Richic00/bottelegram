@@ -73,7 +73,7 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
-		if($text ="foto"){
+		if($text =="foto"){
 			sendFoto(&chatId, "Foto.jpg", false, "La mia foto", $api);
 		}
 
