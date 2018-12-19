@@ -47,6 +47,10 @@
 		//ho ricevuto e che si trova nella variabile $text
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
+		if($text =="data"){
+		$text ="La data odierna è: ".date("d/m/y");
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
 	
 		
 		//aggiungo il comando di invio
