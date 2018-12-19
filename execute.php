@@ -57,6 +57,11 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
+		if($text =="bolletta del sabato"){
+		$text ="tanto è già persa";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
+
 		
 		//aggiungo il comando di invio
 		//e lo invio
