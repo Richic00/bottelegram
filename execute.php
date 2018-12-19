@@ -68,6 +68,15 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 		
+		if($text =="eurobet"){
+		$text ="https://www.eurobet.it/it/scommesse/?splash=false#!";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
+
+
+
+
+		
 		//aggiungo il comando di invio
 		//e lo invio
 		
