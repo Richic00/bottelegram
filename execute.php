@@ -63,6 +63,10 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
+		if($text =="goldbet"){
+		$text ="https://www.goldbet.it/";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
 		
 		//aggiungo il comando di invio
 		//e lo invio
