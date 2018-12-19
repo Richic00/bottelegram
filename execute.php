@@ -52,13 +52,14 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 		
-		if($text =="coglione"){
-		$text ="il coglione è: santomauro";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-		}
 
 		if($text =="bolletta del sabato"){
 		$text ="tanto è già persa";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
+		
+		if($text =="sisal"){
+		$text ="https://www.sisal.it/";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
