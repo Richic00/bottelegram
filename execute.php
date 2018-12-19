@@ -74,7 +74,7 @@
 		}
 
 		if($text =="foto"){
-			sendFoto(&chatId, "Foto.jpg", false, "La mia foto", $api);
+			sendFoto($chatId, "Foto.jpg",false, "La mia foto", $api);
 		}
 
 
