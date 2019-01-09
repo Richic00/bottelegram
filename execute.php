@@ -77,17 +77,14 @@
 			sendFoto($chatId,"rap.jpg",false, "tonyeffe", $api);
 		}
 		
-		if(&text =="barz"){
-			$barz[0]="eskeree"
-			$barz[1]="flexx"
-			$barz[2]="tony bebbi"
-			$barz[3]="teduaaaa"	
+		if($text =="barz"){
+			$barz[0]="eskeree";
+			$barz[1]="flexx";
+			$barz[2]="tony bebbi";
+			$barz[3]="teduaaaa";	
 			
-			$i = rand(0,3); 	
-				
-				
-				
-		$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
+			$i = rand(0,3); 				
+			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 		}
 
 		
