@@ -83,7 +83,7 @@
 			$barz[2]="tony bebbi"
 			$barz[3]="teduaaaa"	
 			
-			$i = srand(0,3); 	
+			$i = rand(0,3); 	
 				
 				
 				
