@@ -48,35 +48,47 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
 		if($text =="data" || $text=="/data"){
-		$text ="La data odierna è: ".date("d/m/y");
-		$parameters = array('chat_id' => $chatId, "text" => $text);
+			$text ="La data odierna è: ".date("d/m/y");
+			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 		
 
 		if($text =="bolletta del sabato"){
-		$text ="tanto è già persa";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
+			$text ="tanto è già persa";
+			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 		
 		if($text =="sisal"){
-		$text ="https://www.sisal.it/";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
+			$text ="https://www.sisal.it/";
+			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
 		if($text =="goldbet"){
-		$text ="https://www.goldbet.it/";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
+			$text ="https://www.goldbet.it/";
+			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 		
 		if($text =="eurobet"){
-		$text ="https://www.eurobet.it/it/scommesse/?splash=false#!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
+			$text ="https://www.eurobet.it/it/scommesse/?splash=false#!";
+			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
 		if($text =="tony"){
 			sendFoto($chatId,"rap.jpg",false, "tonyeffe", $api);
 		}
-
+		
+		if(&text =="barz"){
+			$barz[0]="eskeree"
+			$barz[1]="flexx"
+			$barz[2]="tony bebbi"
+			$barz[3]="teduaaaa"	
+			
+			$i = srand(0,3); 	
+				
+				
+				
+		$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
+		}
 
 		
 		//aggiungo il comando di invio
