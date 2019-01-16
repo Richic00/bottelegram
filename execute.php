@@ -90,7 +90,8 @@
 
 
 		if($text =="bucarest"){
-			sendAudio($chatId, "bucarest.mp3",false, "skkkkk", $api);
+			sendAudio($chatId, "bucarest.mp3",false, "OG EASTBULL ft. TONY - BUCAREST (Prod. Sick Luke)
+", $api);
 		}
 
 
