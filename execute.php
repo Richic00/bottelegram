@@ -77,7 +77,7 @@
 			sendFoto($chatId,"rap.jpg",false, "tonyeffe", $api);
 		}
 		
-		if($text =="barz"){
+		if($text =="barzellette"||$text =="barz"){
 			$barz[0]="eskeree";
 			$barz[1]="flexx";
 			$barz[2]="tony bebbi";
@@ -97,7 +97,6 @@
 		if($text =="testopdf"){
 		
 			sendDocument($chatId, "testopdf.pdf",false, "documento", $api);
-		
 		
 		}
 
