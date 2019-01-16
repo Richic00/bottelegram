@@ -94,9 +94,9 @@
 			sendAudio($chatId, "bucarest.mp3",false, "OG EASTBULL ft. TONY - BUCAREST (Prod. Sick Luke)", $api);
 		}
 
-		if($text =="sisal"){
+		if($text =="testopdf"){
 		
-			sendDocument($chatId, "sisal.pdf",false, "documento documento", $api);
+			sendDocument($chatId, "testopdf.pdf",false, "documento", $api);
 		
 		
 		}
