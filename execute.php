@@ -90,11 +90,16 @@
 
 
 		if($text =="bucarest"){
-			sendAudio($chatId, "bucarest.mp3",false, "OG EASTBULL ft. TONY - BUCAREST (Prod. Sick Luke)
-", $api);
+	
+			sendAudio($chatId, "bucarest.mp3",false, "OG EASTBULL ft. TONY - BUCAREST (Prod. Sick Luke)", $api);
 		}
 
-
+		if($text =="sisal"){
+		
+			sendDocument($chatId, "sisal.pdf",false, "documento documento", $api);
+		
+		
+		}
 
 
 
