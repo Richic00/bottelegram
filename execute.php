@@ -89,8 +89,8 @@
 		}
 
 
-		if($text =="BucarestTony"){
-			sendAudio($chatId, "BucarestTony.mp3",false, "BucarestTony", $api);
+		if($text =="Audio"){
+			sendAudio($chatId, "Audio.mp3",false, "Audio", $api);
 		}
 
 
