@@ -82,8 +82,9 @@
 			$barz[1]="flexx";
 			$barz[2]="tony bebbi";
 			$barz[3]="teduaaaa";	
+			$barz[4]="latte di suocera"
 			
-			$i = rand(0,3); 				
+			$i = rand(0,4); 				
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 		}
 
