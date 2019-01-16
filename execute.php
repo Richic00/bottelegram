@@ -81,7 +81,7 @@
 			$barz[0]="eskeree";
 			$barz[1]="flexx";
 			$barz[2]="L’ammiraglio vede una flotta nemica e dice al suo tirapiedi:portami la mia maglietta rossa così i soldati non vedranno il mio sangue Subito dopo il tirapiedi gli dice: ci sono altre 20 navi ammiraglio...vado a prendere i pantaloni marroni. ";
-			$barz[3]=' Due tirchi scommettono 20 euro per chi resta più a lungo sott acqua: ritrovati i due cadaveri!';			
+			$barz[3]=" Due tirchi scommettono 20 euro per chi resta più a lungo sott acqua: ritrovati i due cadaveri!";			
 			$barz[4]="Se sentite delle sirene avvicinarsi non vi preoccupate.... ho appena arrestato il PC!";
 			
 			$i = rand(0,4); 				
