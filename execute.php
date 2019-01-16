@@ -89,7 +89,7 @@
 		}
 
 
-		if($text =="bucarest"){
+		if($text =="bucarest"||$text =="/bucarest"){
 	
 			sendAudio($chatId, "bucarest.mp3",false, "OG EASTBULL ft. TONY - BUCAREST (Prod. Sick Luke)", $api);
 		}
